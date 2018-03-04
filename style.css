@@ -1,0 +1,477 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}	
+
+body {
+	margin:0.5em;
+	padding:0;
+	height:100%;
+}
+
+#sup{
+	text-align: center;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+html{
+	background-color: rgb(26,28,36);
+	color: #FFFAFA;
+	width: 100%;
+	font-family: helvetica,"gill sans",sans-serif,"times new roman", Georgia;
+}
+
+input, select{
+	color: #C8C8C8;
+	height: 1.5em;
+	background: rgba(221,231,234,0.3);
+	font-size:1em;
+	border-radius: 3px;
+	border: 1px solid #26466D;
+	font-family: helvetica,"gill sans",sans-serif,"times new roman", Georgia;
+}
+
+input:focus {
+    color: #FFFAFA;
+    outline: none; /* Removes the blue highlighting the buttons */
+}
+
+#social{
+    display: block;
+    text-align: center;
+	margin-left: auto;
+	margin-top: 1em;
+	margin-right: auto;
+	width: 20em;
+ }
+
+#submit{
+	height: 1.5em;
+	background-color: #104E8B;
+	font-size:1em;
+	border-radius: 3px;
+	border: 1px solid #26466D;
+	color:#FFFAFA;	
+	font-family: helvetica,"gill sans",sans-serif,"times new roman", Georgia;
+	margin: 0.3em;
+}
+
+#submit:hover{
+	background-color: #D3D3D3;
+	color:#517693;	
+}
+
+@font-face {
+    font-family: 'Mohave'; /*a name to be used later*/
+    src: url('CorbertCondensed-Italic.otf'); /*URL to font*/
+	}
+
+h2{
+	color:rgba(246,60,60,0.5);	
+	font-size: 2.5em;
+	font-family: Mohave,helvetica,"gill sans",sans-serif,"times new roman", Georgia;
+}
+
+img{
+	margin: 0;
+	padding: 0;
+	margin-top: 10%;
+	margin-bottom: 3em;
+}
+
+/*  the social media icons design  */
+
+.share-button5 {
+	background-image: url('./32/pinterest.png');
+	height: 32px;
+	width: 32px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.share-button5:hover {
+	background-image: url('./32/pinterest_color.png');
+	height: 32px;
+	width: 32px;
+	
+}
+.share-button6 {
+	background-image: url('./32/google_plus.png');
+	height: 32px;
+	width: 32px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.share-button6:hover {
+	background-image: url('./32/google_plus_color.png');
+	height: 32px;
+	width: 32px;
+}
+.share-button7 {
+	background-image: url('./32/twitter.png');
+	height: 32px;
+	width: 32px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.share-button7:hover {
+	background-image: url('./32/twitter_color.png');
+	height: 32px;
+	width: 32px;
+}
+
+.share-button8 {
+	background-image: url('./32/mail.png');
+	height: 32px;
+	width: 32px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.share-button8:hover {
+	background-image: url('./32/mail_color.png');
+	height: 32px;
+	width: 32px;
+}
+
+.share-button9 {
+	background-image: url('./32/facebook.png');
+	height: 32px;
+	width: 32px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.share-button9:hover {
+	background-image: url('./32/facebook_color.png');
+	height: 32px;
+	width: 32px;
+}
+
+footer {
+   bottom:0;
+   margin-top: 10em;
+   display: block;
+   width: 39.5em;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   border-top: 2px solid rgba(255,249,249,0.5);
+}
+
+footer, p{
+	padding-top: 0.2em;
+	color: rgba(255,249,249,0.5);
+}
+
+footer, a{
+	color: #FFFAFA;
+	text-decoration: none;
+}
+
+/* The design for the buttons and when hovered */
+.NoneActive1{
+	background-color: #6C7B8B;
+	text-align: center;
+	font-family:helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	color:#F7F7F7;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.NoneActive1:hover{
+	background-color: #4682B4;
+	color:#FFFAFA;	
+}
+
+.NoneActive2{
+	background-color: #6C7B8B;
+	text-align: center;
+	font-family: helvetica,"myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	color:#F7F7F7;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8.5em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.NoneActive2:hover{
+	background-color: #009ACD;
+	color:#FFFAFA;	
+}
+
+.NoneActive3{
+	background-color: #6C7B8B;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	color:#F7F7F7;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8.5em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.NoneActive3:hover{
+	background-color: #8DB6CD;
+	color:#FFFAFA;	
+}
+
+.NoneActive4{
+	background-color: #6C7B8B;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	color:#F7F7F7;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.NoneActive4:hover{
+	background-color: #4973AB;
+	color:#FFFAFA;	
+}
+
+/* The design of when the button is clicked */
+
+.active1{
+	background-color: #4682B4;
+	color:#FFFAFA;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+
+.active2{
+	background-color: #009ACD;
+	color:#FFFAFA;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8.5em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.active3{
+	background-color: #8DB6CD;
+	color:#FFFAFA;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8.5em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.active4{
+	background-color: #4973AB;
+	color:#FFFAFA;
+	text-align: center;
+	font-family: helvetica, "myriad pro","gill sans",sans-serif,"times new roman", Georgia;
+	border: 0px;
+	margin: 0px;
+	font-size:1em;
+	border-radius: 3px;
+	width: 8em;
+	transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+#ButtonSpace{
+	margin: 1em;
+	display: block;
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table{
+	border-collapse: collapse;
+	width: 70%;
+	background-color: #739AC5;
+	margin: 1em;
+	text-align: center;
+	font-family: helvetica,"gill sans",sans-serif,"times new roman", Georgia;
+
+	/* centering the table */
+
+	display: block;
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+    border: 0.2em solid #575757;
+}
+
+th {
+    height: 2em;
+}
+
+tr:nth-child(even) { /* this is going to find the even numbers of rows and and give it alternate colors */
+    background-color: #B8B8B8;
+}
+
+#gen{
+	/* centering the table */
+
+	display: block;
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#buttons{
+	margin: 1em;
+}
+
+header{
+	width: 100%;
+	background-color: #6B6B6B; 
+	height: 4em;
+	margin: 0;
+	margin-bottom: 5em;
+}
+
+#logo{
+	float:left;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+	padding-left: 1em;
+	margin-top: 0.3em; 
+}
+
+#log{
+	float: right;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+	margin-right: 1em;
+	margin-top: 0.9em;
+}
+
+/*  The design for poping the graph */
+
+			#popupBoxOnePosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}
+			.popupBoxWrapper{
+				width: 40em; margin: 4em auto; text-align: left;
+			}
+			.popupBoxContent{
+				background-color: rgb(26,28,36); padding: 2em;
+			}
+
+#color{ /*  This is to design the php 'echo's */
+	text-align: center;
+	font-size: 1.6em;
+	margin: 5px;
+	vertical-align: middle;
+}	
+
+#color:hover{
+	color: #4973AB;
+	margin: 5px;
+	text-decoration: underline;
+}	
+
+#name{
+	color: #B8B8B8;
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+#info{
+	color: #B8B8B8;
+	font-size: 1em;
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+
+.myclass{
+	margin-bottom: 15px;
+	background-color: #C69;
+}
+
+#admin{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
